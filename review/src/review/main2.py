@@ -3,7 +3,7 @@ from langchain_openai import ChatOpenAI
 from es_custom_tool import ElasticsearchTool,ElasticsearchToolConfig
 import os
 
-llm = LLM(model="ollama/llama3.2", base_url="http://localhost:11434")
+llm3 = LLM(model="ollama/llama3.2", base_url="http://localhost:11434")
 
 
 

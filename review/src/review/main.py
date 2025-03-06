@@ -8,7 +8,6 @@ from datetime import datetime
 from review.crew import Review
 
 
-
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
 # This main file is intended to be a way for you to run your
@@ -24,7 +23,7 @@ def run():
         'topic': 'AI LLMs',
         'current_year': str(datetime.now().year)
     }
-    
+
     try:
         Review().crew().kickoff(inputs=inputs)
     except Exception as e:
